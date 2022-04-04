@@ -31,7 +31,7 @@ public class Main {
 			for (int j = 0; j < cantPersonas; j++) {
 				System.out.println(x.ascensor(personas.poll(), cantOficinas));
 			}
-			System.out.println(x.print(cantED));
+			System.out.println(x.print(cantPersonas));
 			
 		}
 	}
